@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI";
+  background: linear-gradient(135deg, #a4bdec, #0f2d60);
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+/* Wallet Card */
+.wallet-card {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  width: 320px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Cards */
+.card {
+  background: white;
+  color: black;
+  width: 320px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+}
+
+input {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #0072ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #0057cc;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+/* Transactions */
+.txn {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
